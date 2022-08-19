@@ -1,0 +1,13 @@
+#container{ 
+    width: 800px;
+    height: 400px;
+    color: rgb(17, 226, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tit1{
+    color: rgb(255, 0, 0);
+}

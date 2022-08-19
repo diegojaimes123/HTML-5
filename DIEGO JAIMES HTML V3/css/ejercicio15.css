@@ -1,0 +1,18 @@
+#tit1 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+#container {
+    width: 800px;
+    height: 600px;
+    color: rgb(112, 42, 42);
+    font-family: unset;
+    background-color: rgb(207, 248, 196);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    color: indigo;
+}
