@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+        width: 800px;
+        height: 500px;
+        background-color: rgba(0, 26, 255, 0);
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#header {   
+        width: 800px;
+        height: 100px;
+        background-color:rgba(8, 25, 32, 0.808);
+}
+
+#enc {  
+    position: relative;
+    left: 315px;
+    top: 25px;
+    font-family:'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#nav {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(12, 51, 38);
+}
+
+#men {
+    position: relative;
+    left: 315px;
+    top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(7, 4, 0);
+}
+
+#main {
+    float: left;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(13, 128, 182, 0.808);
+}
+
+#cue {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(7, 4, 0);
+}
+
+#footer {
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(6, 24, 18);
+}
+
+#pie {
+    position: relative;
+    left: 20px;
+    top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#img {
+    position:relative;
+    left:690px;
+    top: 0px;
+}
