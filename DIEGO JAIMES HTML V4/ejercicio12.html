@@ -1,0 +1,97 @@
+<!--
+    ENTIDAD: Centro de Biotecnología Agropecuaria
+    Ficha: 2558346
+    Programa: Analisis y desarrollo de software
+    Autor: Diego Alexander Jaimes 
+    Objetivo: Uso de etiquetas HTML: p, strong, del, em y su hoja de diseño css
+    Fecha Creacion: 31 de julio de 2022
+    Version: 4.0.0
+    Fecha modificacion: 10 de agosto 2022 Juan Sebastian Vidales y Harol Mora
+    W3E Validator: OK
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./CSS/Ejercicio12.css">
+        <title>Ejercicio12</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="enc">ADSO</h1>
+            </div>
+            <div id="nav">
+                <h1 id="men">Ejercicio12</h1>
+            </div>
+            <div id="main">
+                <h3 id="cue">Comparativa de reproductores MP</h3>
+                <table>
+                    <caption id="cue">Tabla comparativa de las caracteristicas técnicas de los reproductores MP3</caption>
+                    <tr>
+                        <th></th>
+                        <th abbr="Reproductor mini" scope="col" colspan="3">
+                            <img src="./img/movil.jpg" alt="Imagen del reproductor MP3 pequeño de color blanco"/>
+                            <img src="./img/movil.jpg" alt="Imagen del reproductor MP3 pequeño de color negro"/>
+                            <br /><strong>Movil</strong>
+                          </th>
+                  
+                          <th abbr="Reproductor estándar" scope="col" colspan="2">
+                            <img  src="./img/videocamara.jpg" alt="Imagen del reproductor MP3 grande de color blanco"/>
+                            <img src="./img/videocamara.jpg" alt="Imagen del reproductor MP3 grande de color negro"/>
+                            <br /><strong>videocamara</strong>
+                          </th>
+                        </tr>
+                        <tr>
+                          <th scope="row" abbr="Capacidad">Capacidad de almacenamiento</th>
+                          <td>4GB <br />(1.000 canciones)</td>
+                          <td> 8GB <br /> (2.000 canciones)</td>
+                          <td>16GB <br />(4.000 canciones)</td>
+                          <td>30GB <br />(7.500 canciones)</td>
+                          <td>80GB <br />(20.000 canciones)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" abbr="Colores disponibles">Colores</th>
+                  
+                          <td>
+                            <img src="./img/blanco.jpg" alt="Color blanco" />
+                          </td>
+                          <td>
+                            <img src="./img/blanco.jpg" alt="Color blanco" />
+                            <img src="./img/verde.png" alt="Color verde" />
+                            <img src="./img/azul.png" alt="Color azul" />
+                            <img src="./img/rosado.png" alt="Color rosa" />
+                          </td>
+                          <td>
+                            <img src="./img/negro.jpg" alt="Color negro" />
+                          </td>
+                          <td colspan="2">
+                            <img src="./img/blanco.jpg" alt="Color blanco" />
+                            <img src="./img/negro.jpg" alt="Color negro" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" abbr="Tamaño de pantalla">Pantalla</th>
+                  
+                          <td colspan="3">LCD de 3 cm (diagonal) con retroiluminación</td>
+                          <td colspan="2">LCD de 6 cm (diagonal) con retroiluminación</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="2" scope="row" abbr="Tiempo de carga">Tiempo de carga</th>
+                          <td rowspan="2" colspan="3">Unas 3 horas</td>
+                          <td colspan="2">Unas 4 horas</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+                        </tr>
+                    </table>
+            </div>
+            <div id="footer">
+                <h1 id="pie">Copyright@ Todos los derechos reservados 2022 DJ</h1>
+                <p id="img"><img src="./img/Logo.png"/></p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
